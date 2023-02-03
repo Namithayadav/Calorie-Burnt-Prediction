@@ -1,7 +1,7 @@
 
 """
 Created on Fri Jan 20 19:08:13 2023
-@author: RITHVIK
+@author: Namitha
 """
 import pickle
 import streamlit as st

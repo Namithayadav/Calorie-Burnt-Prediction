@@ -8,7 +8,7 @@ import streamlit as st
 import numpy as np
 import database as db
 loaded_model = pickle.load(open('calorie_model.sav', 'rb'))
-
+st.set_page_config(page_title="Calorie Burnt Prediction")
 st.title("CALORIE BURNT PREDICTION")
 
 def prediction(age,gender,height,weight,duration,heart_rate,temparature ):   

@@ -2,15 +2,15 @@
 """
 Created on Sun Jan 22 19:41:34 2023
 
-@author: RITHVIK
+@author: Namitha
 """
 
 from deta import Deta
-DETA_KEY="d0ldf89w_NiE9WtM9mgv3h9yTpDAqfFeGBeW9y66o"
+DETA_KEY="d03mix7x_d4r91nQ3Cbx92WGepYpcVUq5RP7CmaiQ"
 # Initialize with a project key
 deta = Deta(DETA_KEY)
 # This is how to create/connect a database
-db = deta.Base("Users_data")
+db = deta.Base("Calorie_data")
 
 def insert_data(age,gender,height,weight,duration,heart_rate,temparature,result):
     return db.put({"age": age, "gender": gender,"Height":height,"Weight":weight,"Duration":duration,

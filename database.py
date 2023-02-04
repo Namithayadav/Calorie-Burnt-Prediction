@@ -7,7 +7,8 @@ Created on Sun Jan 22 19:41:34 2023
 
 from deta import Deta
 import streamlit as st
-DETA_KEY=st.secrets["DETA_KEY"]
+DETA_KEY="d03mix7x_d4r91nQ3Cbx92WGepYpcVUq5RP7CmaiQ"
+#DETA_KEY=st.secrets["DETA_KEY"]
 # Initialize with a project key
 deta = Deta(DETA_KEY)
 # This is how to create/connect a database
